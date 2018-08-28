@@ -150,4 +150,4 @@ class org_custom_shortcode {
 
 }
 
-$org_custom_plugin = org_custom_shortcode::get_instance();
+$custom_sh_plugin = org_custom_shortcode::get_instance();
