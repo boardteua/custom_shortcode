@@ -45,7 +45,7 @@ class org_custom_shortcode {
 
     public function org_create_shortcode() {
         register_post_type(self::$post_type, ['labels' => [
-                'name' => 'Шорткодер',
+                'name' => 'Shortcodes',
                 'singular_name' => 'Short Code',
                 'add_new' => 'Add New',
                 'add_new_item' => 'Add New Short Code',
@@ -96,6 +96,8 @@ class org_custom_shortcode {
         extract(shortcode_atts(['id' => null,
                         ], $atts, 'org_content'));
         $post = get_post($id);
+        
+                //$content = ($post)?$post->post_content:'';
 		if($post){
 			$content = $post->post_content;
 		} else {
