@@ -1,3 +1,3 @@
-# custom wordpress shortcode builder
+# Custom wordpress shortcode builder
 
-Create custom shortcode snippets in wordpress 
+Create custom shortcode snippets in wordpress
